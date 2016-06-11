@@ -1,5 +1,5 @@
 # codility-python 
-This is a simple repository containing the solutions Python 2.7 solutions to:
+This is a simple repository containing Python 2.7 solutions to:
 > https://codility.com/programmers/lessons/ 
 
 :+1:
