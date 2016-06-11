@@ -1,2 +1,9 @@
-# codility-java
-Java solutions for https://codility.com/programmers/lessons/
+# codility-java 
+This is a simple repository containing the Java solutions to:
+> https://codility.com/programmers/lessons/ 
+
+:+1:
+
+- [x] [Lesson 1]()
+- [x] [Lesson 2]()
+- [x] [Lesson 3]()
