@@ -1,5 +1,5 @@
 # codility-java 
-This is a simple repository containing the Java solutions to:
+This is a simple repository containing Java solutions to:
 > https://codility.com/programmers/lessons/ 
 
 :+1:
