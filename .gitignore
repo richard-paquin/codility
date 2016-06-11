@@ -1,1 +1,4 @@
 /src/codility/*
+!/src/codility/Codility.java
+/nbproject/private
+/build
