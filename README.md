@@ -4,8 +4,8 @@ This is a simple repository containing Java solutions to:
 
 :+1:
 
-- [x] [Lesson 1](src\Lesson_01_03\)
-- [x] [Lesson 2](src\Lesson_01_03\)
+- [x] [Lesson 1](src/Lesson_01_03/)
+- [x] [Lesson 2](src/Lesson_01_03/)
 - [x] [Lesson 3](src/Lesson_01_03/)
 - [x] [Lesson 4](src/Lesson_04)
 - [x] [Lesson 5](src/Lesson_05)
