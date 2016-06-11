@@ -51,31 +51,4 @@ public class CountNonDivisible {
         return retVal;
     }
 
-    public static void Test() {
-        CountNonDivisible t = new CountNonDivisible();
-        ArrayList<int[]> a = new ArrayList<>();
-
-        //System.out.println(t.divisors(1000));
-//       //  a.add(new int[]{2});
-        a.add(new int[]{3, 1, 2, 3, 6});
-//        a.add(new int[]{3, 3, 3});
-//        a.add(new int[]{1, 2, 3, 5, 7});
-//        a.add(new int[]{4, 2, 4, 2, 4, 2});
-//        a.add(new int[]{2});
-//        a.add(new int[]{2, 4});
-//        a.add(new int[]{2, 4, 6});
-//        
-//        a.add(new int[]{1});
-//        a.add(new int[]{1, 4});
-//        a.add(new int[]{1, 3, 1, 5, 3});
-//        a.add(new int[]{3, 1, 2, 3, 6});
-//        a.add(new int[]{1, 1, 2, 2, 3, 6, 6, 6, 6});
-//        a.add(new int[]{1});
-//        a.add(randArray(50000, 1, 10));
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(Arrays.toString(t.solution(A)));
-        }
-    }
 }

@@ -1,7 +1,5 @@
 package Lesson_09;
 
-import java.util.*;
-
 public class MaxSliceDoubleSum {
 
     public int solution1(int[] A) {
@@ -59,40 +57,4 @@ public class MaxSliceDoubleSum {
         return max;
     }
 
-    public static void Test() {
-        ArrayList<int[]> a = new ArrayList<>();
-//        a.add(new int[]{3, 2, 6, -1, 4, 5, -1, 2});
-//        a.add(new int[]{1, 2, 3});
-//        a.add(new int[]{3, 2, 1});
-//        a.add(new int[]{-1, -2, -3});
-//        a.add(new int[]{-3, -2, -1});
-//        a.add(new int[]{-1, -2, -3, -4, -5});
-//        a.add(new int[]{-5, -4, -3, -2, -1});
-//        a.add(new int[]{1, 2, 3, 4, 5});
-//        a.add(new int[]{5, 4, 3, 2, 1});
-//        a.add(new int[]{-1, -2, -3, -4, -5});
-//        a.add(new int[]{-5, -4, -3, -2, -1});
-//        a.add(new int[]{-1, 1, -1, 1, -1});
-//        a.add(new int[]{-1, -1, -1, 0, 1, 2});
-        a.add(new int[]{-1, -1, -1, 2, 1, 0});
-        a.add(new int[]{0, 1, 2, -1, -1, -1,});
-        a.add(new int[]{2, 1, 0, -1, -1, -1,});
-        a.add(new int[]{1, 1, 1, 0, 0, 0, 0, 0, 0, 1000, -5, -5, -5, -5, 2000, 0});
-
-        //a.add(new int[]{});
-        //a.add(new int[]{-2, -3, 4, -1, -2, 1, 5, -3});
-        a.add(new int[]{23171, 21011, 21123, 21366, 21013, 21367});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            int x = new MaxSliceDoubleSum().solution1(A);
-            int y = new MaxSliceDoubleSum().solution2(A);
-            System.out.print(x);
-            System.out.print("|");
-            System.out.println(y);
-            break;
-
-        }
-    }
 }

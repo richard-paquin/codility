@@ -1,7 +1,5 @@
 package Lesson_10;
 
-import java.util.*;
-
 public class Flags {
 
     // https://codility.com/demo/results/trainingSHTC9G-62U/
@@ -52,28 +50,4 @@ public class Flags {
         return maxFlags;
     }
 
-    public static void Test() {
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2});
-
-        a.add(new int[]{0, 1, 0});
-        a.add(new int[]{0, 1, 1, 0});
-
-        a.add(new int[]{1, 2, 3, 4, 5, 6});
-        a.add(new int[]{6, 5, 4, 3, 2, 1});
-        a.add(new int[]{1, 2, 3, 2, 1});
-        a.add(new int[]{1, 2, 3, 3, 2, 1});
-        a.add(new int[]{3, 2, 1, 2, 3});
-
-        a.add(new int[]{1});
-        a.add(new int[]{0, 1, 0, 1, 0});
-        a.add(new int[]{0, 1, 0, 0, 1, 0, 0, 1, 0});
-        a.add(new int[]{0, 0, 1, 0, 1, 0});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(new Flags().solution(A));
-        }
-    }
 }

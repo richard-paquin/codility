@@ -1,8 +1,5 @@
 package Lesson_09;
 
-import java.util.*;
-import java.math.*;
-
 public class MaxProfit {
 
     public int solution(int[] A) {
@@ -46,16 +43,4 @@ public class MaxProfit {
         return maxProfit;
     }
 
-    public static void Test() {
-        ArrayList<int[]> a = new ArrayList<>();
-        //a.add(new int[]{5, -7, 3, 5, -2, 4, -1});
-        //a.add(new int[]{-2, -3, 4, -1, -2, 1, 5, -3});
-        a.add(new int[]{23171, 21011, 21123, 21366, 21013, 21367});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(new MaxProfit().solution2(A));
-        }
-    }
 }

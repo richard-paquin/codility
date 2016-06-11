@@ -1,7 +1,5 @@
 package Lesson_11;
 
-import java.util.*;
-
 public class CountSemiprimes {
 
     // https://codility.com/demo/results/trainingE48BMA-ZRU/
@@ -64,32 +62,6 @@ public class CountSemiprimes {
     static int randomWithRange(int min, int max) {
         int range = (max - min) + 1;
         return (int) (Math.random() * range) + min;
-    }
-
-    public static void Test() {
-
-        CountSemiprimes t = new CountSemiprimes();
-        int N = 50000;
-        int M = 30000;
-        int[] p1 = new int[M];
-        int[] q1 = new int[M];
-        for (int i = 0; i < M; i++) {
-            p1[i] = randomWithRange(0, N);
-            q1[i] = randomWithRange(p1[i], N);
-        }
-
-        System.out.println(Arrays.toString(t.solution(
-                26,
-                new int[]{1, 4, 16},
-                new int[]{26, 10, 20}))
-        );
-
-        System.out.println(Arrays.toString(t.solution(
-                N,
-                p1,
-                q1))
-        );
-
     }
 
 }

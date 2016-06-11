@@ -1,7 +1,5 @@
 package Lesson_05;
 
-import java.util.*;
-
 public class PassingCars {
 
     // A[0] = 0   A[1] = 1   A[2] = 0   A[3] = 1   A[4] = 1
@@ -28,30 +26,4 @@ public class PassingCars {
         return crossings;
     }
 
-    public static void Test() {
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{0});
-        a.add(new int[]{1});
-        a.add(new int[]{0, 1});
-        a.add(new int[]{1, 0});
-        a.add(new int[]{1, 1});
-        a.add(new int[]{0, 0});
-        a.add(new int[]{1, 1, 1, 1, 0});
-        a.add(new int[]{0, 1, 1, 1, 1});
-        a.add(new int[]{1, 0, 0, 0, 0});
-        a.add(new int[]{0, 0, 0, 0, 1});
-//        a.add(new int[]{2, 1});
-//        a.add(new int[]{1, 2, 3});
-//        a.add(new int[]{-1, 0, 1});
-//        a.add(new int[]{-2, -1, 0});
-//        a.add(new int[]{-2, -1, 1});
-//        a.add(new int[]{-3, -2, -1});
-        a.add(new int[]{0, 1, 0, 1, 1});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(new PassingCars().solution(A));
-        }
-    }
 }

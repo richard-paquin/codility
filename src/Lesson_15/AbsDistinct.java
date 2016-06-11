@@ -1,7 +1,5 @@
 package Lesson_15;
 
-import java.util.*;
-
 public class AbsDistinct {
 
     // screw it, we use a prev val, AND abs. that should do it !
@@ -117,38 +115,5 @@ public class AbsDistinct {
         }
         return count;
     }
-
-    public static void Test() {
-        AbsDistinct t = new AbsDistinct();
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{-5, -3, -1, 0, 3, 6});
-        a.add(new int[]{0});
-        a.add(new int[]{-1, 1});
-        a.add(new int[]{-1});
-        a.add(new int[]{1});
-        a.add(new int[]{-2, -1});
-        a.add(new int[]{-1, -1});
-        a.add(new int[]{-1, 0});
-        a.add(new int[]{-1, 1});
-        a.add(new int[]{0, 1});
-        a.add(new int[]{1, 1});
-        a.add(new int[]{1, 2});
-        a.add(new int[]{-3, -2, -1, 0});
-        a.add(new int[]{0, 1, 2, 3});
-        a.add(new int[]{-3, -2, -1, 1, 2, 3});
-        a.add(new int[]{-3, -2, -1, 0, 1, 2, 3});
-        a.add(new int[]{-3, -2, -1, 0, 0, 1, 2, 3});
-        a.add(new int[]{-3, -2, 0, 0, 1, 2, 3});
-        a.add(new int[]{-3, -2, -1, 0, 0, 2, 3});
-        a.add(new int[]{-2, -1, 0, 0, 1, 2, 3});
-        a.add(new int[]{-3, -2, -1, 0, 0, 1, 2});
-        a.add(new int[]{-3, -2, -2, -1, 0, 0, 1, 2, 2, 2, 3});
-        a.add(new int[]{-3, -3, -2, 0, 0, 1, 1, 3, 3});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(t.solution(A));
-        }
-    }
+    
 }

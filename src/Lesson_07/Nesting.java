@@ -15,22 +15,4 @@ public class Nesting {
         }
         return (index == 0) ? 1 : 0;
     }
-
-    public static void Test() {
-        ArrayList<String> a = new ArrayList<>();
-        a.add(")");
-        a.add("(");
-        a.add("()");
-        a.add(")(");
-        a.add("(()");
-        a.add("())");
-        a.add("(())");
-        a.add("()()");
-
-        for (String A : a) {
-            System.out.print(A);
-            System.out.print(": ");
-            System.out.println(new Nesting().solution(A));
-        }
-    }
 }

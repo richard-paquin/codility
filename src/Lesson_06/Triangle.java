@@ -40,16 +40,4 @@ public class Triangle {
         return 0;
     }
 
-    public static void Test() {
-
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{0});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(new Triangle().solution(A));
-        }
-    }
-
 }

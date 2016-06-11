@@ -51,19 +51,4 @@ public class OddOccurrencesInArray {
         return A[A.length - 1];
     }
 
-    public static void Test() {
-
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{9, 3, 9, 3, 9, 7, 9});
-        a.add(new int[]{7});
-        a.add(new int[]{7, 7, 9});
-        a.add(new int[]{7, 7, 9, 9, 9});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(new OddOccurrencesInArray().solution3(A));
-        }
-    }
-
 }

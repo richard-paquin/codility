@@ -1,7 +1,5 @@
 package Lesson_15;
 
-import java.util.*;
-
 public class CountDistinctSlices {
 
     // initial version : https://codility.com/demo/results/trainingY8C3W7-A6S/
@@ -37,14 +35,4 @@ public class CountDistinctSlices {
         return count;
     }
 
-    public static void Test() {
-        CountDistinctSlices t = new CountDistinctSlices();
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{3, 4, 5, 5, 2});
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(t.solution(6, A));
-        }
-    }
 }

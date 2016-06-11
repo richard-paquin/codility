@@ -1,7 +1,5 @@
 package Lesson_10;
 
-import java.util.*;
-
 public class MinPerimeterRectangle {
 
     public int solution(int N) {
@@ -17,17 +15,4 @@ public class MinPerimeterRectangle {
         return -1;
     }
 
-    public static void Test() {
-        ArrayList<Integer> a = new ArrayList<>();
-        a.add(36);
-        a.add(30);
-        a.add(1);
-        a.add(17);
-
-        for (int A : a) {
-            System.out.print(A);
-            System.out.print(": ");
-            System.out.println(new MinPerimeterRectangle().solution(A));
-        }
-    }
 }

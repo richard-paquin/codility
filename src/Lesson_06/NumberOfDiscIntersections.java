@@ -53,15 +53,4 @@ public class NumberOfDiscIntersections {
         return count;
     }
 
-    public static void Test() {
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{1, 5, 2, 1, 4, 0});
-
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.println(": ");
-            System.out.println(new NumberOfDiscIntersections().solution(A));
-        }
-    }
-
 }

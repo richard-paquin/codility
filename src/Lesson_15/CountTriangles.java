@@ -31,15 +31,5 @@ public class CountTriangles {
         }
         return count;
     }
-
-    public static void Test() {
-        CountTriangles t = new CountTriangles();
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{1});
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(t.solution(A));
-        }
-    }
+    
 }

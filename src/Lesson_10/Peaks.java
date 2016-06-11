@@ -1,7 +1,5 @@
 package Lesson_10;
 
-import java.util.*;
-
 public class Peaks {
 
     // https://codility.com/demo/results/trainingC73932-MUR/
@@ -69,29 +67,4 @@ public class Peaks {
         return true;
     }
 
-    public static void Test() {
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2});
-        a.add(new int[]{0, 2, 1, 1, 2, 3, 0, 1, 2, 1, 6, 2});
-        a.add(new int[]{0, 2, 1, 1, 2, 3, 0, 1, 2, 1, 6, 2});
-        a.add(new int[]{2, 1, 0, 2, 1, 0, 2, 1, 0, 2, 1, 0});
-        a.add(new int[]{0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2});
-        a.add(new int[]{0, 1, 0});
-        a.add(new int[]{0, 1, 1, 0});
-        a.add(new int[]{1, 2, 3, 4, 5, 6});
-        a.add(new int[]{6, 5, 4, 3, 2, 1});
-        a.add(new int[]{1, 2, 3, 2, 1});
-        a.add(new int[]{1, 2, 3, 3, 2, 1});
-        a.add(new int[]{3, 2, 1, 2, 3});
-
-        a.add(new int[]{1});
-        a.add(new int[]{0, 1, 0, 1, 0});
-        a.add(new int[]{0, 1, 0, 0, 1, 0, 0, 1, 0});
-        a.add(new int[]{0, 0, 1, 0, 1, 0});
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(new Peaks().solution(A));
-        }
-    }
 }

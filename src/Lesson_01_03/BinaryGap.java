@@ -25,13 +25,4 @@ public class BinaryGap {
         return maxGapSize;
     }
 
-    public static void Test() {
-        BinaryGap b = new BinaryGap();
-        int[] test = {-3, 0, 1, 2, 6, 20, 15, 529, 1041, 2147483645, 2147483647};
-        for (int i : test) {
-            System.out.print(i);
-            System.out.print(": ");
-            System.out.println(b.maxGap(i));
-        }
-    }
 }

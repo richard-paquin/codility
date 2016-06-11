@@ -63,23 +63,4 @@ public class MaxProductOfThree {
         return v1 > v2 ? v1 : v2;
     }
 
-    public static void Test() {
-        ArrayList<int[]> a = new ArrayList<>();
-        a.add(new int[]{1, 2, 3});
-        a.add(new int[]{-1, 0, 1});
-        a.add(new int[]{-2, -1, 0});
-        a.add(new int[]{-2, -1, 1});
-        a.add(new int[]{-3, -2, -1});
-        a.add(new int[]{1, 2, 3, 4});
-        a.add(new int[]{-1, 0, 1, -2});
-        a.add(new int[]{-2, -1, 1, 8});
-        a.add(new int[]{-3, -1, 1, 2, 4});
-        a.add(new int[]{-2, -1, 1, 3, 4});
-        a.add(new int[]{-2, -1, 0, 1, 2});
-        for (int[] A : a) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            System.out.println(new MaxProductOfThree().solution(A));
-        }
-    }
 }

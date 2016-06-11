@@ -27,19 +27,4 @@ public class Fish {
         return stack.size() + safe;
     }
 
-    public static void Test() {
-        int[] A, B;
-
-        A = new int[]{4, 3, 2, 1, 5};
-        B = new int[]{0, 1, 0, 0, 0};
-        System.out.print(Arrays.toString(A) + Arrays.toString(B));
-        System.out.print(": ");
-        System.out.println(new Fish().solution(A, B));
-
-        A = new int[]{4, 3, 2, 1, 5};
-        B = new int[]{0, 0, 0, 1, 1};
-        System.out.print(Arrays.toString(A) + Arrays.toString(B));
-        System.out.print(": ");
-        System.out.println(new Fish().solution(A, B));
-    }
 }

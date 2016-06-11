@@ -1,7 +1,5 @@
 package Lesson_10;
 
-import java.util.*;
-
 public class CountFactors {
 
     public int solution(int N) {
@@ -20,21 +18,5 @@ public class CountFactors {
             count--;
         }
         return count;
-    }
-
-    public static void Test() {
-        ArrayList<Integer> a = new ArrayList<>();
-        a.add(36);
-        a.add(30);
-        a.add(1);
-        a.add(17);
-        a.add(24);
-        a.add(25);
-
-        for (int A : a) {
-            System.out.print(A);
-            System.out.print(": ");
-            System.out.println(new CountFactors().solution(A));
-        }
     }
 }

@@ -1,7 +1,5 @@
 package Lesson_12;
 
-import java.util.*;
-
 public class CommonPrimeDivisors {
 
     int getGcdBin(int a, int b, int r) {
@@ -58,23 +56,4 @@ public class CommonPrimeDivisors {
         return count;
     }
 
-    public static void Test() {
-        CommonPrimeDivisors t = new CommonPrimeDivisors();
-//        System.out.println(t.gcd(25, 100));
-//        System.out.println(t.gcd(25, 60));
-
-        ArrayList<int[]> array = new ArrayList<>();
-        array.add(new int[]{10, 4});
-        array.add(new int[]{1, 1});
-        array.add(new int[]{7, 1});
-        array.add(new int[]{8, 2});
-
-        for (int[] A : array) {
-            System.out.print(Arrays.toString(A));
-            System.out.print(": ");
-            int a = A[0];
-            int b = A[1];
-//            System.out.println(t.solution(A, B));
-        }
-    }
 }
