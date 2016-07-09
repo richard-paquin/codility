@@ -7,16 +7,16 @@ I wish to make sure I fully master all of them.
 Let's do this ! :+1:
 
 ## Python
-- [x] [Lesson 1](python/Lesson 1.ipynb)
-- [x] [Lesson 2](python/Lesson 2.ipynb)
-- [x] [Lesson 3](python/Lesson 3.ipynb)
-- [x] [Lesson 4](python/Lesson 4.ipynb)
-- [x] [Lesson 5](python/Lesson 5.ipynb)
-- [x] [Lesson 6](python/Lesson 6.ipynb)
-- [x] [Lesson 7](python/Lesson 7.ipynb)
-- [ ] [Lesson 8](python/Lesson 8.ipynb)
-- [x] [Lesson 9](python/Lesson 9.ipynb)
-- [ ] [Lesson 10](python/Lesson 10.ipynb)
+- [x] [Lesson 1](python/Lesson_01.ipynb)
+- [x] [Lesson 2](python/Lesson_02.ipynb)
+- [x] [Lesson 3](python/Lesson_03.ipynb)
+- [x] [Lesson 4](python/Lesson_04.ipynb)
+- [x] [Lesson 5](python/Lesson_05.ipynb)
+- [x] [Lesson 6](python/Lesson_06.ipynb)
+- [x] [Lesson 7](python/Lesson_07.ipynb)
+- [ ] [Lesson 8](python/Lesson_08.ipynb)
+- [x] [Lesson 9](python/Lesson_09.ipynb)
+- [ ] [Lesson 10](python/Lesson_10.ipynb)
 
 ## Java
 - [x] [Lesson 1](java/src/Lesson_01_03/)
