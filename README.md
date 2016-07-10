@@ -38,8 +38,7 @@ Let's do this ! :+1:
 - [ ] Lesson 17
 
 ## C++
-- [x] Lesson 1 
-<<<<<<< HEAD
+- [x] Lesson 1
  - [1 BinaryGap](https://codility.com/demo/results/trainingAQATKE-F4U/)
 - [x] Lesson 2
  - [2.1 CyclicRotation](https://codility.com/demo/results/training48WN22-ESQ/)
@@ -47,15 +46,6 @@ Let's do this ! :+1:
 - [x] Lesson 3
  - [3.1 FrogJmp](https://codility.com/demo/results/trainingPNRTJ9-455/)
  - [3.2 TapeEquilibrium](https://codility.com/demo/results/training46K856-KA3/)
-=======
--- [1 BinaryGap](https://codility.com/demo/results/trainingAQATKE-F4U/)
-- [x] Lesson 2
--- [2.1 CyclicRotation](https://codility.com/demo/results/training48WN22-ESQ/)
--- [2.2 OddOccurrencesInArray](https://codility.com/demo/results/trainingG7D4DS-X6W/)
-- [x] Lesson 3
--- [3.1 FrogJmp](https://codility.com/demo/results/trainingPNRTJ9-455/)
--- [3.2 TapeEquilibrium](https://codility.com/demo/results/training46K856-KA3/)
->>>>>>> fe3fe2d1d397f046f4ae3a40975d63472ead1f56
 
 ## JavaScript
 binary_gap: https://codility.com/demo/results/trainingDFXQSV-62X/
