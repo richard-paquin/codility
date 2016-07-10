@@ -3,7 +3,7 @@ This is a simple repository containing solutions to:
 > https://codility.com/programmers/lessons/ 
 
 Why redo from the same site ? It is a very well done site. The concepts are clear, and I believe some of them are extremely valuable.
-I wish to make sure I fully master all of them.
+
 Let's do this ! :+1:
 
 ## Python
